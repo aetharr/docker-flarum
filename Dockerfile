@@ -1,6 +1,6 @@
-FROM alpine:latest
-MAINTAINER xataz <https://github.com/xataz>
-MAINTAINER hardware <https://github.com/hardware>
+FROM hypriot/rpi-alpine
+
+MAINTAINER aetharr <aetharr@gmail.com>
 
 ARG VERSION=v0.1.0-beta.6
 
